@@ -45,13 +45,11 @@ for (let i = 0; i < 5; i++) {
 for (let i = 0; i < 5; i++) {
     console.log("Merhaba " +i);
 }
-// console.log("Merhaba " +i); //for içinde tanımlanan i değişkeni for kapsamı dışında(öncesinde veya sonrasında) kullanılamaz
+console.log("Merhaba " +i); //for içinde tanımlanan i değişkeni for kapsamı dışında(öncesinde veya sonrasında) kullanılamaz
 
 //dışardan bir değişken de kullanılabilir
 let j = 0;
 for (let j = 0; j < 5; j++) {
     console.log("Merhaba " +j);
 }
-console.log("Merhaba " +j); //Merhaba 5 de çıktı olarak görünecek 
-
-
+console.log("Merhaba " +j); //Merhaba 5 de çıktı olarak görünecek
