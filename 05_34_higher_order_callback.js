@@ -45,7 +45,7 @@ console.log(fonk()); //NaN
 console.log(fonk(sayi));
 console.log(sayi);
 
-console.log("----------------");
+console.log("---------------");
 
 let myDizi = [1, 2, 3];
 // const diziElemanlariniIkiyleCarp  = function (dizi){
